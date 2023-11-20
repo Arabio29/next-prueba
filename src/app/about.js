@@ -1,23 +1,23 @@
 import styles from './page.module.css'
 
-export default function Home() {
+export default function AboutPage() {
   return (
     <main className={styles.main}>
 
       <div className={styles.center}>
-        <h1>Index</h1>
+        <h1>About</h1>
       </div>
 
       <div className={styles.grid}>
         <a
-          href="/about"
+          href="/"
           className={styles.card}
           rel="noopener noreferrer"
         >
           <h2>
-            About <span>-&gt;</span>
+            Index <span>-&gt;</span>
           </h2>
-          <p>Sobre nosotros</p>
+          <p>Inicio</p>
         </a>
       </div>
     </main>
